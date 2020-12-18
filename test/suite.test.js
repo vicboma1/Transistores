@@ -139,3 +139,21 @@ const transistores = require('./test01.js');
 		var result = transistores(['Blanco','Verde','Azul','Violeta','Naranja','Negro', 'Gris']);
 		expect(result).toBe(expected);
 	});
+
+	test('transistores([Blanco, Verde, Amarillo, Azul, Violeta, Naranja, Negro, Gris])', function () {
+		var expected = 95467308 ;
+		var result = transistores(['Blanco','Verde', 'Amarillo','Azul','Violeta','Naranja','Negro', 'Gris']);
+		expect(result).toBe(expected);
+	});
+
+	test('transistores([Marrón, Blanco, Verde, Amarillo, Azul, Violeta, Naranja, Negro, Gris])', function () {
+		var expected = 195467308 ;
+	var result = transistores(['Marrón','Blanco','Verde', 'Amarillo','Azul','Violeta','Naranja','Negro', 'Gris']);
+		expect(result).toBe(expected);
+	});
+
+	test('transistores([Rojo, Marrón, Blanco, Verde, Amarillo, Azul, Violeta, Naranja, Negro, Gris])', function () {
+		var expected = 2195467308 ;
+	var result = transistores(['Rojo','Marrón','Blanco','Verde', 'Amarillo','Azul','Violeta','Naranja','Negro', 'Gris']);
+		expect(result).toBe(expected);
+	});
