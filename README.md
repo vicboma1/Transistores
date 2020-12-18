@@ -1,5 +1,10 @@
 # Transistores
 
+<p align="center">
+    <img src="https://github.com/GeeksHubsAcademy/2020-geekshubs-media/blob/master/image/logo.png" >	
+</p>
+
+
 Si desea construir algo usando una Raspberry Pi, probablemente uses resistencias. Para este ejercicio, necesita saber dos cosas sobre ellos:
 
 Cada resistencia tiene un valor de resistencia. Las resistencias son pequeñas, tan pequeñas que si imprimiera el valor de resistencia en ellas, sería difícil de leer.
