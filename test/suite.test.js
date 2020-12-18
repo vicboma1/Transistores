@@ -1,5 +1,17 @@
 const transistores = require('./test01.js');
 
+	test('transistores(null)', function () {
+		var expected = 'Deben estar presentes al menos dos colores';
+		var result = transistores(null);
+		expect(result).toBe(expected);
+	});
+	
+	test('transistores([])', function () {
+		var expected = 'Deben estar presentes al menos dos colores';
+		var result = transistores([]);
+		expect(result).toBe(expected);
+	});
+
 	test('transistores([Negro])', function () {
 		var expected = 'Deben estar presentes al menos dos colores';
 		var result = transistores(['Negro']);
