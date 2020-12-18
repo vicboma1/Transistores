@@ -4,6 +4,7 @@
     <img src="https://github.com/GeeksHubsAcademy/2020-geekshubs-media/blob/master/image/logo.png" >	
 </p>
 
+[![Build Status](https://travis-ci.com/vicboma1/Transistores.svg?branch=main)](https://travis-ci.com/vicboma1/Transistores)
 
 Si desea construir algo usando una Raspberry Pi, probablemente uses resistencias. Para este ejercicio, necesita saber dos cosas sobre ellos:
 
